@@ -75,3 +75,128 @@ button:hover {
     }
 }
 
+
+@media screen and (max-width: 480px) {
+    .calculator {
+        align-items: center;
+        width: 100%;
+        height: auto;
+        padding: 0;
+        border: none;
+    }
+
+    .display {
+        width: 100%;
+        height: 20vh;
+        background: #222;
+        color: #fff;
+    }
+
+    button {
+        border: none;
+        background-color: #fff;
+        padding: 1.6rem;
+        font-size: 20px;
+        cursor: pointer;
+    }
+}
+
+@media only screen and (min-width: 480px) {
+    .calculator {
+        align-items: center;
+        width: auto;
+        height: 500px;
+        padding: 0;
+        border: none;
+    }
+
+    .display {
+        width: 100%;
+        height: 20vh;
+        background: #222;
+        color: #fff;
+    }
+
+    button {
+        border: none;
+        background-color: #fff;
+        padding: 1.6rem;
+        font-size: 20px;
+        cursor: pointer;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .calculator {
+        align-items: center;
+        width: auto;
+        height: auto;
+        padding: 0;
+        border: none;
+    }
+
+    .display {
+        width: 100%;
+        height: 20vh;
+        background: #222;
+        color: #fff;
+    }
+
+    button {
+        border: none;
+        background-color: #fff;
+        padding: 1.6rem;
+        font-size: 20px;
+        cursor: pointer;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .calculator {
+        align-items: center;
+        width: auto;
+        height: auto;
+        padding: 0;
+        border: none;
+    }
+
+    .display {
+        width: 100%;
+        height: 20vh;
+        background: #222;
+        color: #fff;
+    }
+
+    button {
+        border: none;
+        background-color: #fff;
+        padding: 1.6rem;
+        font-size: 20px;
+        cursor: pointer;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .calculator {
+        align-items: center;
+        width: auto;
+        height: auto;
+        padding: 0;
+        border: none;
+    }
+
+    .display {
+        width: 100%;
+        height: 20vh;
+        background: #222;
+        color: #fff;
+    }
+
+    button {
+        border: none;
+        background-color: #fff;
+        padding: 1.6rem;
+        font-size: 20px;
+        cursor: pointer;
+    }
+}
