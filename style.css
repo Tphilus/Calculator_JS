@@ -79,7 +79,7 @@ button:hover {
 @media screen and (max-width: 480px) {
     .calculator {
         align-items: center;
-        width: 100%;
+        width: 99.8%;
         height: auto;
         padding: 0;
         border: none;
@@ -124,6 +124,16 @@ button:hover {
         font-size: 20px;
         cursor: pointer;
     }
+
+    .output {
+        font-size: 28px;
+        padding: 25px;
+    }
+    
+    .result {
+        font-size: 18px;
+        padding: 25px;
+    }
 }
 
 @media only screen and (min-width: 768px) {
@@ -148,6 +158,16 @@ button:hover {
         padding: 1.6rem;
         font-size: 20px;
         cursor: pointer;
+    }
+
+    .output {
+        font-size: 28px;
+        padding: 25px;
+    }
+    
+    .result {
+        font-size: 18px;
+        padding: 25px;
     }
 }
 
@@ -174,6 +194,16 @@ button:hover {
         font-size: 20px;
         cursor: pointer;
     }
+
+    .output {
+        font-size: 28px;
+        padding: 25px;
+    }
+    
+    .result {
+        font-size: 18px;
+        padding: 25px;
+    }
 }
 
 @media only screen and (min-width: 1200px) {
@@ -198,5 +228,15 @@ button:hover {
         padding: 1.6rem;
         font-size: 20px;
         cursor: pointer;
+    }
+
+    .output {
+        font-size: 28px;
+        padding: 25px;
+    }
+    
+    .result {
+        font-size: 18px;
+        padding: 25px;
     }
 }
